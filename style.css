@@ -1,0 +1,37 @@
+body {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
+
+#main {
+    background-color: #faebd7;
+    height: calc(98vh - 25px);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#menu {
+    background-color: #1d1d1d;
+    height: 12vh;
+    overflow: hidden;
+    transition: height 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+}
+
+#button {
+    color: #ff4c00;
+    font-size: xx-large;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+#menu:hover {
+    height: 12vh;
+    border-radius: 0px 0px 10px 10px;
+}
